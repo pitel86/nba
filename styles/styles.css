@@ -1,0 +1,118 @@
+/**   selectores por etiqueta  **/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: rgb(56, 93, 161);
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+  
+  h3{
+      font-size: 25px;
+  }
+  
+  nav {
+    background-color: #12263a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  nav img {
+    height: 50px;
+  }
+  
+  section {
+    padding: 40px 0 0;
+    background-color: #dbe9ee;
+  }
+  
+  /* selectores por relaciÃ³n*/
+  nav a {
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* selectores por clase*/
+  .equipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .equipos div {
+    margin: 20px auto;
+  }
+  
+  /** selector por id **/
+  
+  #home {
+    width: 100vw;
+    height: calc(100vh - 8rem);
+    background-image: url("../images/fondoluka.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+  
+  #atlantico {
+    background-color: #116ce1;
+    padding: 20px 0;
+    color: #dbe9ee;
+  }
+  
+  #central {
+    background-color: #39b2fd;
+    padding: 20px 0;
+    color: #dbe9ee;
+  }
+  
+  #sureste {
+    background-color: #60bcfa;
+    padding: 20px 0;
+    color: #dbe9ee;
+  }
+  
+  #noroeste {
+    background-color: #920207;
+    padding: 20px 0;
+    color: #dbe9ee;
+  }
+  
+  #pacifico {
+    background-color: #d43334;
+    padding: 20px 0;
+    color: #dbe9ee;
+  }
+  
+  #suroeste {
+    background-color: #e56677;
+    padding: 20px 0;
+    color: #dbe9ee;
+  }
+  
+  footer {
+    background-color: #12263a;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
